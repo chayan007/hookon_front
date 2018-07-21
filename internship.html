@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="assets/ExtraAssets/owl.carousel.min.css"/>
   
 </head>
 <body>
@@ -386,7 +386,7 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="assets/ExtraAssets/owl.carousel.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -404,24 +404,24 @@
     
     <script>
         $(document).ready(function(){
-          $('.owl-carousel').owlCarousel({autoWidth:false,
-                                          responsiveClass:true,
-                                           responsive:{
-                                               0:{
-                                                items:1,
-                                                nav:true
-                                              },
-                        
-                                               768:{
-                                                   items:2,
-                                                   nav:true
-                                               },
-                                               1024:{
-                                                   items:3,
-                                                   nav:true
-                                               },
-                                           }
-                                         });
+          $('.owl-carousel').owlCarousel({
+              autoWidth:false,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                   items:1,
+                   nav:true
+                 },
+                768:{
+                 items:2,
+                    nav:true
+                },
+                1024:{
+                    items:3,
+                    nav:true
+                },
+            }
+          });
         });
     
     </script>
