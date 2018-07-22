@@ -38,20 +38,10 @@ body{
 .signup_login_content{
         padding-top: 90px; 
     }
-.btn-primary{
-    background-color: #D84F57 !important;
-    border: 1px solid #D84F57 !important;
-}
-
 .form-control:focus{
     border-color: #D84F57 !important;
     box-shadow:0 0 0 .2rem rgba(234,54,103,.25) !important;
 }
-.owl-nav .owl-prev.disabled,
-.owl-nav .owl-next.disabled{
-    display:none !important;
-}
-
 
 
 
