@@ -39,8 +39,8 @@ body{
         padding-top: 90px; 
     }
 .form-control:focus{
-    border-color: #D84F57 !important;
-    box-shadow:0 0 0 .2rem rgba(234,54,103,.25) !important;
+    border-color: #D95058 !important;
+    box-shadow:0 0 0 .2rem rgba(217,80,88,.25) !important;
 }
 
 
