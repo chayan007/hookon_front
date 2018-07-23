@@ -67,9 +67,48 @@ body{
 .card{
      height: 200px; width: 190px;
 }
+
+/************Company list*************/
+#company-list .container{
+    padding-top: 3vw;
+}
+#company-list .items{
+    margin-left: 5vw;
+}
+#company-list .items a h4{
+    text-align: center;
+    color: #828282;
+    font-weight: 400;
+}
+#company-list .items img{
+    padding-bottom: 0.5em;
+    height: 150px; 
+    width: 150px;
+    
+}
+#company-list h2{
+    padding-bottom: 0.5em;
+}
+#company-list .owl-carousel{
+    width: 100%;
+    
+}
+
 @media only screen and (max-width:800px){
     .card{
         height: 150px; width: 150px;
+    }
+    #company-list .items img{
+        padding-bottom: 0.5em;
+        height: 120px;
+        width: 120px;
+    }
+    #company-list .items a h4{
+        text-align: center;
+
+        color: #828282;
+        font-weight: 400;
+        font-size: 0.95rem;
     }
 }
 

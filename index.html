@@ -99,7 +99,7 @@
     
 
     
-    <div class="container pt-3">
+    <div class="container pt-3 ">
         <div class="row">
             
             <h1 class="display-2 ml-3">Popular Internships.</h1>
@@ -210,7 +210,7 @@
         </div>
 </div></section>-->
 
-<section class="cid-qXzefyytyw" style="border-top: 2px solid #D84F57;border-bottom: 2px solid #D84F57;">
+<section class="cid-qXzefyytyw" style="border-top: 2px solid #D95058;border-bottom: 2px solid #D95058;">
     <div class="container">
         <h1 class="display-2 ">Popular Courses.</h1>
         
@@ -268,6 +268,38 @@
 
 </section>
 
+ <section id="sponsor">
+                <div class="owl-carousel pt-3">
+                    <div class="items"><a href="sponsor.html"><img src="assets/ExtraAssets/sponsor.jpg" alt="Sponsor img"></a></div>
+                    <div class="items"><a href="sponsor.html"><img src="assets/ExtraAssets/sponsor.jpg" alt="Sponsor img"></a></div>
+                    <div class="items"><a href="sponsor.html"><img src="assets/ExtraAssets/sponsor.jpg" alt="Sponsor img"></a></div>
+                    <div class="items"><a href="sponsor.html"><img src="assets/ExtraAssets/sponsor.jpg" alt="Sponsor img"></a></div>
+                </div>
+</section>
+
+<section id="company-list" class="pb-2" style="border-top: 2px solid #D95058;border-bottom: 2px solid #D95058;"> <!--Companies we list-->
+                <div class="container">
+                    <h2 class="display-2">Companies we list</h2>
+                </div>
+                <div class="owl-carousel">
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Anchor</h4>
+                    </a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Bee
+                            Drill</h4> </a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Double
+                            T</h4> </a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Harvest</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Upload</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Lamp</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>LDC</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>LF</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Paramore</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Prosper</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Visco</h4></a></div>
+                    <div class="items"><a href=""><img src="assets/ExtraAssets/company_placeholder_logo.png" alt=""><h4>Yepjet</h4></a></div>
+                </div>
+</section>  <!--End of Companies we list-->
+            
 
 
 
@@ -327,7 +359,7 @@
 
 </section>-->
 
-<section class="clients cid-qXKPOuCwxn" id="clients-o">
+<!--<section class="clients cid-qXKPOuCwxn" id="clients-o">
       
 
     
@@ -402,7 +434,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!--<section class="mbr-section form4 cid-qXzeBZnTmE" id="form4-m">
 
@@ -613,6 +645,47 @@
             }
         });
        });
+    </script>
+    <script>
+         $("#sponsor .owl-carousel").owlCarousel({
+        items: 1,
+        autoplay: true,
+        margin: 10,
+        responsive:{
+            0:{
+                items: 1
+            },
+            400:{
+                items: 2
+            },
+            1000:{
+                items: 3
+            },
+            1400:{
+                items: 4
+            }
+        }
+    });
+    $("#company-list .owl-carousel").owlCarousel({
+        items: 4.5,
+        loop: true,
+        responsive:{
+            0:{
+                items: 2.5
+            },
+            400:{
+                items: 3.5,
+                margin:40,
+            },
+            1000:{
+                items: 5.5
+            },
+            1400:{
+                items: 6.6
+            }
+        }
+    });
+    
     </script>
   </body>
 </html>
