@@ -47,7 +47,7 @@ h5{
     display: block;
 }
 .signup_login_content{
-        padding-top: 90px; 
+        padding-top: 30px; 
     }
 .form-control:focus{
     border-color: #D95058 !important;
@@ -81,7 +81,7 @@ h5{
 /************Company list*************/
 #company-list .container{
     padding-top: 4vh;
-    padding-left: 0px;
+    padding-left: 5vw;
     padding-bottom: 2vh;
 }
 #company-list .items{
@@ -113,6 +113,10 @@ h5{
     padding: 0.75em 0.5em;
     border-radius: 3px;
     box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.15);
+    margin-bottom: 50px;
+}
+.mbr-section-title{
+    padding-top: 10rem;
 }
 .cta{
     width: 100%;
@@ -136,10 +140,24 @@ h5{
     font-size: 1.5rem;
     border-bottom: 2px solid #fff;
 }
+#background-section{
+    height: 39vh;
+}
+.company-main-logo{
+        border:5px solid #D84F57;
+        border-radius: 50%;
+        position: relative;
+        bottom: 100px;
+        height: 130px;
+        width: 130px;
+    }
 
 @media only screen and (max-width:800px){
     .card{
         height: 165px; width: 150px;
+    }
+    .card-title{
+        font-size: 0.9rem;
     }
     #company-list .items img{
         padding-bottom: 0.5em;
@@ -156,8 +174,29 @@ h5{
     #hero .cta svg{
         width: 24px;
     }
+    .cta{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .cta h3{
       font-size: 1.2rem; 
+    }
+    .cid-qQriDf8GmN{
+        padding-top: 9rem;
+    }
+    #background-section{
+        height: 10rem;
+    }
+    .company-main-logo{
+        height: 100px;
+        width: 100px;
+         bottom:70px;
+    }
+    .mbr-section-title, .mbr-text{
+        display: none;
+    }
+    .cta{
+        transform: translateY(-60%)
     }
 }
 
@@ -170,5 +209,8 @@ h5{
         padding-top: 3rem; 
         height: 100vh;
         margin: 0 auto;
+    }
+    #background-section{
+        height: 13rem;
     }
 }
