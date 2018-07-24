@@ -192,11 +192,17 @@ h5{
         width: 100px;
          bottom:70px;
     }
-    .mbr-section-title, .mbr-text{
+     .mbr-text{
         display: none;
     }
+    .mbr-section-title{
+        padding-top: 0rem;
+        font-size: 2rem;
+
+    }
     .cta{
-        transform: translateY(-60%)
+        margin-top: 10px;
+        transform: translateY(-30%);
     }
 }
 
