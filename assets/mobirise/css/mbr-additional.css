@@ -721,7 +721,7 @@ pre {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
 .mbr-form .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
+  
   padding: 1rem 3rem;
 }
 .mbr-form .input-group-btn button[type="submit"]:hover {
