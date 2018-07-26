@@ -159,7 +159,9 @@ h5{
         height: 130px;
         width: 130px;
     }
-
+.search-cards-style{
+    margin: 0 auto;height: 120px;width: 120px; border-radius: 50%;border: 5px solid #D84F57;
+}
 @media only screen and (max-width:800px){
     .card{
         height:160px;width: 150px;
