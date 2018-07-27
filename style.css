@@ -76,6 +76,11 @@ h5{
 }
 .card{
      width: 260px;
+    height: 14rem;
+    -webkit-box-shadow: -1px 2px 13px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 13px -3px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 13px -3px rgba(0,0,0,0.75);
+    padding-bottom: 2rem;
 }
 .card-body{
     padding: 0.9rem 0;
@@ -162,10 +167,18 @@ h5{
 .search-cards-style{
     margin: 0 auto;height: 120px;width: 120px; border-radius: 50%;border: 5px solid #D84F57;
 }
+.card-img-top{
+    height: 165px;
+    
+}
 @media only screen and (max-width:800px){
     .card{
-        height:160px;width: 150px;
+        height:145px;width: 150px;
     }
+    .card-img-top{
+        height: 95px !important;
+
+        }
     .card-body{
         padding-top: 0.8rem;
         padding-bottom: rem;
@@ -196,7 +209,7 @@ h5{
       font-size: 1.2rem; 
     }
     .cid-qQriDf8GmN{
-        padding-top: 9rem;
+        padding-top: 7rem;
     }
     #background-section{
         height: 10rem;
@@ -211,7 +224,7 @@ h5{
     }
     .mbr-section-title{
         padding-top: 0rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
 
     }
     .cta{
@@ -238,5 +251,39 @@ h5{
     }
      #sponsor .owl-carousel{
         padding-bottom: 0vh;
+    }
+     .card-img-top{
+        height: 110px;
+        }
+}
+
+/*Splash screen*/
+.splash{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #D84F57; 
+    z-index: 9999;
+}
+.splash-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 200px;
+}
+.splash .splash-content h3{
+    text-align: center;
+    letter-spacing: 0.45rem;
+    padding-left: 0.45rem;
+}
+@media (min-width: 800px){
+    .splash .splash-content h3{
+        letter-spacing: 3px;
+        padding-left: 3px;
     }
 }
